@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 # Global variables for tracking progress
 user_progress = {}
 active_users = set()
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # ⚠️ REPLACE WITH YOUR BOT TOKEN ⚠️
+TOKEN = "7748515975:AAHyGpFl4HXLLud45VS4v4vMkLfOiA6YNSs"  # ⚠️ REPLACE WITH YOUR BOT TOKEN ⚠️
 
 def create_session(proxy=None):
     """Create a new session with headers and cookies"""
