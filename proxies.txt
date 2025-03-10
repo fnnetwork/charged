@@ -1,4 +1,0 @@
-tickets:proxyon145@107.172.170.102:12345
-tickets:proxyon145@107.172.170.115:12345
-tickets:proxyon145@107.172.42.89:12345
-tickets:proxyon145@107.173.112.211:12345
