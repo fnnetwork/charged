@@ -24,8 +24,8 @@ user_progress = {}
 active_users = set()
 TOKEN = "7748515975:AAHyGpFl4HXLLud45VS4v4vMkLfOiA6YNSs"  # ⚠️ REPLACE WITH YOUR BOT TOKEN ⚠️
 PROXY_LIST = [
-    "http://username:password@proxy1.example.com:port",
-    "http://username:password@proxy2.example.com:port",
+    "http://tickets:proxyon145@107.172.170.115:12345",
+    "http://tickets:proxyon145@107.172.170.115:12345",
     # Add your residential proxies here
 ]  # Replace with your proxy service credentials
 
