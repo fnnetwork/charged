@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # Global variables
 user_progress = {}
 active_users = set()
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # ⚠️ REPLACE WITH YOUR BOT TOKEN ⚠️
+TOKEN = "7748515975:AAHyGpFl4HXLLud45VS4v4vMkLfOiA6YNSs"  # ⚠️ REPLACE WITH YOUR BOT TOKEN ⚠️
 PROXY_LIST = [
     "http://username:password@proxy1.example.com:port",
     "http://username:password@proxy2.example.com:port",
