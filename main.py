@@ -24,7 +24,7 @@ user_progress = {}
 active_users = set()
 TOKEN = "7748515975:AAHyGpFl4HXLLud45VS4v4vMkLfOiA6YNSs"  # Replace with your bot token
 PROXY_LIST = [
-    "sp-pro.porterproxies.com:7000:user-PP_8TM74LBMHH-country-US-city-new_york:81c9mj0z",
+    "http://user-PP_8TM74LBMHH-country-US-city-new_york:81c9mj0z@sp-pro.porterproxies.com:7000",
 ]
 
 def get_random_proxy():
