@@ -237,9 +237,9 @@ async def chk_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         await context.bot.delete_message(chat_id=update.effective_chat.id, message_id=checking_msg.message_id)
         if success:
-            await update.message.reply_text(f"✅ Approved: {masked}")
+            await update.message.reply_text(f"✅ Approved: {card_number}")
         else:
-            await update.message.reply_text(f"❌ Declined: {masked}\nReason: {msg}")
+            await update.message.reply_text(f"❌ Declined: {card_number}\nReason: {msg}")
     except Exception as e:
         await context.bot.delete_message(chat_id=update.effective_chat.id, message_id=checking_msg.message_id)
         await update.message.reply_text(f"Error: {str(e)}")
